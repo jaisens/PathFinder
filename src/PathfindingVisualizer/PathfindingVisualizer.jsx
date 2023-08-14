@@ -430,7 +430,7 @@ export default class PathfindingVisualizer extends Component {
                 </svg>
                 <a
                   className="nav-link"
-                  href="http://www.github.com/PrudhviGNV/pathFinderVisualizer"
+                  href="https://github.com/jaisens/PathFinder"
                 >
                   {" "}
                   Github{" "}
