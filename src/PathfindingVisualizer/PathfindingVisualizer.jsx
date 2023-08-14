@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Node from "./Node/Node";
 import { dijkstra } from "../algorithms/dijkstra";
-import { AStar } from "../algorithms/aStar";
+// import { AStar } from "../algorithms/aStar";
 import { dfs } from "../algorithms/dfs";
 import { bfs } from "../algorithms/bfs";
 
@@ -329,9 +329,9 @@ export default class PathfindingVisualizer extends Component {
         case "Dijkstra":
           visitedNodesInOrder = dijkstra(grid, startNode, finishNode);
           break;
-        case "AStar":
-          visitedNodesInOrder = AStar(grid, startNode, finishNode);
-          break;
+        // case "AStar":
+        //   visitedNodesInOrder = AStar(grid, startNode, finishNode);
+        //   break;
         case "BFS":
           visitedNodesInOrder = bfs(grid, startNode, finishNode);
           break;
